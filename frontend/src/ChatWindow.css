@@ -1,0 +1,110 @@
+.chatWindow{
+    background-color: #212121;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar span{
+    margin: 1rem 2rem;
+}
+.userIcon{
+    background-color: #339cff;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+/* chat input */
+.chatInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 700px;
+}
+input{
+    width: 100%;
+    background-color: rgba(255,255,255,0.05);
+    border: none;
+    border-radius: 14px;
+    padding: 30px;
+    font-size: 1rem;
+    box-shadow: rgba(0,0,0,0.05) 0 54px 55px,
+                rgba(0,0,0,0.05) 0 -12px 30px,
+                rgba(0,0,0,0.05) 0 4px 6px,
+                rgba(0,0,0,0.05) 0 12px 3px,
+                rgba(0,0,0,0.05) 0 -3px 5px;
+}
+input:focus{
+    outline:none;
+}
+.info{
+    font-size: 0.7rem;
+    padding: .5rem;
+    color:#b4b4b4;
+}
+#submit{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    right:15px;
+    cursor:pointer;
+}
+.loader{
+    margin-bottom: 1rem;
+}
+
+/* dropdown  */
+
+.dropdown{
+    padding: 0.3rem 0.5rem;
+    position: absolute;
+    top:3rem;
+    right: 4rem;
+    width:150px;
+    border-radius: 6px;
+    text-align: left;
+    z-index: 1000;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #323232;
+}
+.dropdownItem{
+    font-size: 0.9rem;
+    margin:0.3rem 0rem;
+    padding:0.5rem 0.2rem;
+    cursor: pointer;
+}
+.dropdownItem:hover{
+    background-color: rgba(180, 180, 180, 0.1);
+    border-radius: 6px;
+}
+.dropdownItem i{
+    padding-right: .3rem;
+}
