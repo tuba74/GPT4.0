@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Sidebar.css";
-import {chatgptLogo} from "./assets/chatgpt_logo_dark.jpg";
+import chatgptLogo from "./assets/chatgpt_logo_dark.jpg";
 import { useContext ,useEffect} from 'react';
 import { MyContext } from './MyContext';
 import {v1 as uuidv1} from "uuid";
