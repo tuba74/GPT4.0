@@ -94,7 +94,7 @@ function ChatWindow() {
                 </div>
 
                 <p className='info'>
-                    ChatGPT is AI. By using it, you agree to our Terms & Privacy Policy. Chats may be reviewed and used to improve our AI models. Learn more
+                    ChatGPT is AI. By using it, you agree to our Terms & Privacy Policy.Chats may be reviewed and used to improve our AI models. Learn more
                 </p>
             </div>
         </div>
