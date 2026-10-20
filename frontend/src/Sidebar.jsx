@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Sidebar.css";
+import {chatgptLogo} from "./assets/chatgpt_logo_dark.jpg";
 import { useContext ,useEffect} from 'react';
 import { MyContext } from './MyContext';
 import {v1 as uuidv1} from "uuid";
@@ -75,7 +76,7 @@ function Sidebar() {
     return ( 
         <section className='sidebar'>
             <button onClick={getNewChat}>
-                <img src='src/assets/chatgpt_logo_dark.jpg' alt="gpt4.0 logo" />
+                <img src={chatgptLogo} alt="gpt4.0 logo" />
                 <i className="fa-regular fa-pen-to-square"></i>
             </button>
 
